@@ -6,7 +6,7 @@ version =
     |> String.trim
 
 pkg = :nerves_system_rpi0_with_opencv
-g
+
 config pkg, :nerves_env,
   type: :system,
   version: version,
